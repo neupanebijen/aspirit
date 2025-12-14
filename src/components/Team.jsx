@@ -8,7 +8,7 @@ import { FadeUp } from "./Animations"
 
 import TeamIcon from "../assets/teamIcon.svg"
 import SumanImage from "../assets/Suman.png"
-import AashishImage from "../assets/aashish.png"
+import AashishImage from "../assets/Aashish.png"
 
 const Container = styled(WidthContainer)`
   margin: 0 auto;
@@ -163,3 +163,4 @@ const Team = () => {
 }
 
 export default Team
+
