@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 9.9rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "PatuaOne";
+  src: url("./src/assets/fonts/PatuaOne.ttf");
+}
+
+@font-face {
+  font-family: "KGBrokenVesselsSketch";
+  src: url("./src/assets/fonts/KGBrokenVesselsSketch.ttf");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("./src/assets/fonts/SegoeUI.ttf");
+}
+
+@media only screen and (max-width: 1300px) {
+  * {
+    scroll-padding-top: 8.5rem;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  * {
+    scroll-padding-top: 2rem;
+  }
+}
