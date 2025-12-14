@@ -7,7 +7,7 @@ import Heading from "./Heading.jsx"
 import { FadeUp } from "./Animations"
 
 import TeamIcon from "../assets/teamIcon.svg"
-import SumanImage from "../assets/suman.png"
+import SumanImage from "../assets/Suman.png"
 import AashishImage from "../assets/aashish.png"
 
 const Container = styled(WidthContainer)`
